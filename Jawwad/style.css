@@ -48,6 +48,7 @@ body{
 
 
 #header {
+    height: 98px;
 display: flex;
 align-items: center;
 justify-content: space-between;
@@ -103,10 +104,42 @@ left: 0;
     background-position:top 20% right 0 ;
     padding: 0 20px;
     display: flex;
+    place-items: right;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+     animation: change 5s infinite ease-in-out;
+      animation-duration: 10s;
+
 }
+
+
+
+@keyframes change {
+    0%
+    {
+        background-image: url(Images/FB_IMG_1708512680043.jpg);
+    }
+    30%
+    {
+        background-image: url(Images/COD-01.jpg);
+    }
+    60%
+    {
+        background-image: url(Images/save.jpg);
+    }
+    100%
+    {
+        background-image: url(Images/FB_IMG_1708512680043.jpgy);
+    }
+}
+
+
+
+
+
+
+
 #hero h4{
     padding-bottom: 15px;
     font-family: 'Courier New', Courier, monospace;
