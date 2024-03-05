@@ -9,7 +9,7 @@ const Banner = () => {
           <h1 className="italic font-medium pb-3 pt-12 text-[50px] leading-[64px] text-[#222]">
             &quot;Elegance in Every Stroke&quot;
           </h1>
-          <h2 className="font-mono pt-12 pb-6 text-[46px] leading-[54px] text-[#222]">
+          <h2 className="font-sans pt-8 pb-6 text-[46px] leading-[54px] text-[#222]">
             <strong className="font-mono text-violet-700">Shop</strong>{' '}
             Handcrafted Calligraphy Here!
           </h2>
