@@ -4,14 +4,15 @@ const Cards = (props) => {
     console.log(props)
     return (
       <>
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card w-96 bg-base-100 shadow-xl  ">
           <figure>
             <img
               src={props.img}
               alt="Shoes"
+              style={{ height:'400px',width: '400px'}}
             />
           </figure>
-          <div className="card-body">
+          <div className="card-body ">
             <h2 className="card-title">
               Wall Board
               <div className="badge badge-secondary">NEW</div>
