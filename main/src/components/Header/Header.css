@@ -6,7 +6,7 @@
   @apply w-[150px] shadow-[#088178];
 }
 #navbar {
-  @apply flex items-center justify-center;
+  @apply flex items-center justify-center sticky;
 }
 #navbar li {
   @apply relative px-5 py-0;

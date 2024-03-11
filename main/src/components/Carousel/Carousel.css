@@ -1,0 +1,22 @@
+@keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+  
+  .animated-text {
+    overflow: hidden;
+    border-right: 0.15em solid rgb(94, 140, 151); /* Adjust the color of the typing cursor */
+    white-space: nowrap;
+    line-height:1.7;
+    animation: typing 3s steps(40) infinite;
+
+  }
+  .animated-text-container {
+    display: flex;
+    flex-direction: column;
+  
+  }
+
+
+  
