@@ -1,15 +1,32 @@
-import '../../components/Features/Features.css'
+import React from 'react';
+import './Features.css'; // Import your CSS file
 
-const Features= ()=>{
-    return(
-        <div className="">
-            <div className=" h-[600px]">
-
-            <h1 className="text-center ">Hello</h1>
-            <p className="topic">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, dicta totam explicabo error nam ipsum neque repudiandae laborum quo doloribus, quis velit, culpa ducimus necessitatibus. Nam, nobis. Fuga, nemo dicta ea reprehenderit quos debitis quidem nisi necessitatibus consectetur, perferendis vitae aliquam assumenda at corrupti laboriosam labore quia ipsam illum voluptates.</p>
+function Features() {
+    return (
+        <section id="feature" className="section-p1">
+            <div className="fe-box">
+                <img src="../../Images/Febox/COD-01.jpg" alt="Cash On Delivery" />
+                <h6>Cash On Delivery</h6>
             </div>
-        </div>
-    )
+            <div className="fe-box">
+                <img src="../../Images/Febox/standard-quality-control-collage.jpg" alt="Best Quality" />
+                <h6>Best Quality</h6>
+            </div>
 
+            <div className="fe-box">
+                <img src="../../Images/Febox/hand.jpg" alt="Made With Love" />
+                <h6>Made With Love</h6>
+            </div>
+            <div className="fe-box">
+                <img src="../../Images/Febox/save.jpg" alt="Save Money" />
+                <h6>Save Money</h6>
+            </div>
+            <div className="fe-box">
+                <img src="../../Images/Febox/customer.jpg" alt="5-Star Customer Satisfaction" />
+                <h6>5★ Satisfaction</h6>
+            </div>
+        </section>
+    );
 }
+
 export default Features;
