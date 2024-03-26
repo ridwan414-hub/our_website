@@ -104,7 +104,7 @@ const Carousel = () => {
               className="w-65 opacity-40  "
               alt=""
             />
-            <Link>
+            <Link to="/Products" >
               <span className="text-2xl font-styl font-bold relative bottom-[165px] left-[135px] text-[#154748fd] show-more-button">
                 Show More !!
               </span>

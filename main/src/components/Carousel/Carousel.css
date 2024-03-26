@@ -40,8 +40,7 @@
 
 .show-more-button:hover {
   transform: translateY(-3px); /* Move the button slightly upwards on hover */
-  color: #0d746a; /* Change text color on hover */
-  background-color: #f0f0f0; /* Change background color on hover */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow effect */
+  color: #bc1b31; /* Change text color on hover */
+  /* Add a subtle shadow effect */
 }
 
