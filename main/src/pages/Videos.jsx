@@ -37,7 +37,7 @@ const Videos = () => {
         <h1 className="text-4xl font-semibold text-center text-gray-800 mb-12 mt-3 pr-[100px] italic ">Explore Our Product Videos</h1>
         <div className="flex justify-between mb-8">
           {autoplayVideos.map((video, index) => (
-            <div key={index} className="bg-[linear-gradient(180deg,_#96deda,_#50c9c3)] relative overflow-hidden rounded-lg shadow-md flex-grow mr-4 border border-gray-300 hover:shadow-lg transform transition-transform duration-300 hover:scale-105">
+            <div key={index} className="bg-[linear-gradient(180deg,_#96deda,_#50c9c3)] relative overflow-hidden rounded-lg shadow-md flex-grow mr-4 border border-gray-300">
               <video className="autoplay-video w-full h-[550px]">
                 <source src={video} type="video/mp4" />
                 Your browser does not support the video tag.
@@ -49,7 +49,7 @@ const Videos = () => {
       <div className="container mx-auto py-[50px] pl-5 pr-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
           {remainingVideos.map((video, index) => (
-            <div key={index} className="bg-[linear-gradient(0deg,_#fff1eb,_#ace0f9)] relative overflow-hidden rounded-lg shadow-md border border-gray-300 hover:shadow-lg transform transition-transform duration-300 hover:scale-105">
+            <div key={index} className="bg-[linear-gradient(0deg,_#fff1eb,_#ace0f9)] relative overflow-hidden rounded-lg shadow-md border border-gray-300 hover:shadow-lg transform transition-transform duration-300 hover:scale-105 mb-5 ">
               <video controls className="w-full h-[500px]">
                 <source src={video} type="video/mp4" />
                 Your browser does not support the video tag.
