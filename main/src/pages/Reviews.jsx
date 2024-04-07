@@ -29,3 +29,8 @@ const Reviews = () => {
 };
 
 export default Reviews;
+//       <Header></Header>
+//       <div className="grid grid-cols-3 gap-6 p-12 ml-6">
+//         {reviews.map((image) => (
+//           <Cards key={reviews.length} img={image}></Cards>
+//         ))}
