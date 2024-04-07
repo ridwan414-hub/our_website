@@ -22,7 +22,7 @@ const Banner = () => {
               className="w-48"
               alt=""
             />
-            <Link>
+            <Link reloadDocument to="/Products" >
               <span className="text-lg font-bold relative bottom-[90px] left-[54px] text-[#6c2338fd]">
                 Shop Now
               </span>

@@ -53,12 +53,10 @@ const Products = () => {
           ))}
         </div>
       </main>
-
       <section className="cta-section bg-[linear-gradient(to_right,_#E0EAFC,_#CFDEF3)] py-8 text-center">
         <h2 className="text-3xl font-semibold mb-8 mt-2">Ready to personalize your space?</h2>
-        <Link to="/Login" className="btn btn-primary bg-red-300 hover:bg-red-500 rounded-full py- px-6 text-xl font-bold shadow-lg hover:shadow-xl transition duration-300">Log in to Buy</Link> {/* Connect the button to the login page */}
+        <Link reloadDocument to="/Login" className="btn btn-primary bg-red-300 hover:bg-red-500 rounded-full py- px-6 text-xl font-bold shadow-lg hover:shadow-xl transition duration-300">Log in to Buy</Link> {/* Connect the button to the login page */}
       </section>
-
       <Footer />
     </div>
   );
