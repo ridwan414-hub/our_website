@@ -42,11 +42,12 @@ const router = createBrowserRouter([
     element: <Contact></Contact>,
     errorElement: <ErrorPage></ErrorPage>,
   },
-  // {
-  //   path: '/login',
-  //   element: <Login></Login>,
-  //   errorElement: <ErrorPage></ErrorPage>,
-  // },
+
+  {
+    path: '/login',
+    element: <Login></Login>,
+    errorElement: <ErrorPage></ErrorPage>,
+  },
   {
     path: '/cart',
     element: <Carts></Carts>,

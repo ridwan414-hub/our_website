@@ -1,5 +1,6 @@
+import Carts from '../../pages/Carts';
 import './Header.css';
-import {NavLink} from 'react-router-dom';
+import {Link, NavLink} from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -34,9 +35,7 @@ const Header = () => {
               <NavLink to="/login">Login</NavLink>
             </li>
             <li>
-              <NavLink to="/cart">
-                <i className="fa fa-shopping-cart"></i>
-              </NavLink>
+              <Carts></Carts>
             </li>
           </ul>
         </div>
