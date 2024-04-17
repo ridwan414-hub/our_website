@@ -1,8 +1,9 @@
 import Carts from '../../pages/Carts';
 import './Header.css';
-import {Link, NavLink} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
+
   return (
     <>
       <section id="header">
@@ -14,25 +15,25 @@ const Header = () => {
         <div>
           <ul id="navbar">
             <li>
-              <NavLink to="/">Home</NavLink>
+              <Link to={'/'}>Home</Link>
             </li>
             <li>
-              <NavLink to="/products">Products</NavLink>
+              <Link to={'/products'}>Products</Link>
             </li>
             <li>
-              <NavLink to="/reviews">Reviews</NavLink>
+              <Link to={'/reviews'}>Reviews</Link>
             </li>
             <li>
-              <NavLink to="/Videos">Videos</NavLink>
+              <Link to={'/Videos'}>Videos</Link>
             </li>
             <li>
-              <NavLink to="/blogs">Blogs</NavLink>
+              <Link to={'/blogs'}>Blogs</Link>
             </li>
             <li>
-              <NavLink to="/contact">Contact</NavLink>
+              <Link to={'/contact'}>Contact</Link>
             </li>
             <li>
-              <NavLink to="/login">Login</NavLink>
+              <Link to={'/login'}>Login</Link>
             </li>
             <li>
               <Carts></Carts>
